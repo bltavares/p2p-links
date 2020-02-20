@@ -108,6 +108,7 @@ New app to come: [Planetary](https://planetary.social/)
 - [Cabal](https://cabal.chat/) - p2p group chat on top of Dat. Early phases, can't find peers on the main channel sometimes. UI Electron-based with npm-cli alternative, Desktop-y yet.
 - [Peerlinks](https://peerlinks.io/) - p2p group chat replacement for IRC. Early phases, couldn't run when I've tried.
 - Many options of distributed git - [git-dat](https://github.com/substack/git-dat), [hypergit](https://github.com/noffle/hypergit), [git-ssb](https://git.scuttlebot.io/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256)
+- [Radicle](https://radicle.xyz/) - Another take on sofware development storage - git-like p2p
 - [PeerTube](https://joinpeertube.org/) - Video sharing platform, uses [WebTorrent](https://webtorrent.io/) to share content between peers watching videos
 - [Offst](https://www.freedomlayer.org/offst/) - Distributed ledger to track debit between friends, no blockchain-y or cryptocoin-y. [Recently announced a Flutter app](https://www.freedomlayer.org/offst/mobile-app-plan/) project. Really early phases.
   - Also worth checking: [Interledger](https://interledger.org/) - open protocol to send money between ledgers (open-banking like open-protocol).
