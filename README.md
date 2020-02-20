@@ -101,6 +101,7 @@ New app to come: [Planetary](https://planetary.social/)
 
 - [Gun.js](https://gun.js.org/) - Distributed p2p database. Allows build browser apps that talk to other peers directly and share data.
 - [Briar](https://briarproject.org/) - p2p messenger app for mobile, no desktop option, bluetooth and local wifi, requires face-to-face verification. No multi-hop.
+- [Entropic](https://github.com/entropic-dev/entropic) - package manager, wish to be federated/distributed. No concrete plans on protocol yet.
 - [FireChat](https://play.google.com/store/apps/details?id=com.opengarden.firechat) - p2p messenger app for mobile, no desktop option, offers multi-hop. Closed-source, commercial.
 - [Matrix](https://matrix.org/) - federated messenger, [with recent](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) attempts to use overlay ([libp2p](https://libp2p.io/), y) networks to find peers. Awesome idea to connect to other networks and centralize the use (Matrix <-> Telegram, Matrix <-> Whatsapp), but requires maintaining a `homeserver` (main impl requires lot's of memory and a postgres db - no way). No good mobile chat app option yet.
 - [ZeroNet](https://zeronet.io/) - Weird hostnames, feels like darknet with a sprinkle of cryptocoin. Website is very pretty tho. Desktop-y.
