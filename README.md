@@ -64,6 +64,8 @@ All apps ship copies of Node.js (Electron and Node-Mobile), as the protocol reli
 This is being worked on by many people to allow porting the protocol to other languages, such as [Sunrisechoir](https://github.com/sunrise-choir) for Rust (specially this one) and [the Go version](https://github.com/cryptoscope/ssb)
 This should make apps leaner and easier to embbedd SSB into other apps.
 
+New app to come: [Planetary](https://planetary.social/)
+
 ### [Beaker Browser](https://beakerbrowser.com/)
 
 - [Hashbase](https://hashbase.io/)
@@ -85,6 +87,8 @@ This should make apps leaner and easier to embbedd SSB into other apps.
 - Contributing to [datrs](https://github.com/datrs/) to build a Rust version and allow easier embedding of Dat protocol into other apps
 - [hyperdrive-fuse](https://github.com/andrewosh/hyperdrive-daemon)
 
+- [List of many dat-based projects](https://awesome.datproject.org/)
+
 - [hyperswarm](https://github.com/hyperswarm) - distributed network stack on node
   - [airpipe](https://github.com/noffle/airpipe) - share stdin/stdout over network using hyperswarm to find peers
 
@@ -95,6 +99,7 @@ This should make apps leaner and easier to embbedd SSB into other apps.
 
 ## Not installed, but I check from time to time to see if I can use more
 
+- [Gun.js](https://gun.js.org/) - Distributed p2p database. Allows build browser apps that talk to other peers directly and share data.
 - [Briar](https://briarproject.org/) - p2p messenger app for mobile, no desktop option, bluetooth and local wifi, requires face-to-face verification. No multi-hop.
 - [FireChat](https://play.google.com/store/apps/details?id=com.opengarden.firechat) - p2p messenger app for mobile, no desktop option, offers multi-hop. Closed-source, commercial.
 - [Matrix](https://matrix.org/) - federated messenger, [with recent](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) attempts to use overlay ([libp2p](https://libp2p.io/), y) networks to find peers. Awesome idea to connect to other networks and centralize the use (Matrix <-> Telegram, Matrix <-> Whatsapp), but requires maintaining a `homeserver` (main impl requires lot's of memory and a postgres db - no way). No good mobile chat app option yet.
@@ -139,3 +144,7 @@ I would love to have one in SP, but it requires hardward and effort to start and
 
 - [GoTenna](https://gotennamesh.com/products/mesh) - Radio capable network devices
 - [p2pforever](http://p2pforever.org/) - another set of (many more) links
+- [Introduction to the DWeb](https://hacks.mozilla.org/2018/07/introducing-the-d-web/) post and [libdweb](https://github.com/mozilla/libdweb) extensions by Mozilla
+- [DWebcamp](https://dwebcamp.org/) conference
+- [Indieweb](https://indieweb.org/) movement
+- [Data Terra Nemo](https://dtn.is/) conference
