@@ -26,7 +26,7 @@ It simulates a LAN network, so MDNS and broadcast works. It can run on MIPS Open
 
 It provides also a [6PLANE](https://zerotier.atlassian.net/wiki/spaces/SD/pages/7274520/Using+NDP+Emulated+6PLANE+Addressing+With+Docker) address, so each docker container running on a computer will have it's own IPv6 address accessible on the virtual network. It allows cross-node cross-container communication, over the internet or locally.
 
-I keep a [multi-architecture Docker](https://hub.docker.com/r/bltavares/zerotier) up-to-date to have it runnig on all my [homelab](https://github.com/bltavares/homelab) devices. This allows me to add a new device on my virtual network only having to install Docker. The Docker image runs on ARMv6, ARMv7, ARM64, and Amd64, so any raspberry pi anywhere can talk to each other.
+I keep a [multi-architecture Docker](https://hub.docker.com/r/bltavares/zerotier) up-to-date to have it runnig on all my [homelab](https://github.com/bltavares/homelab) devices. This allows me to add a new device on my virtual network only having to install Docker. The Docker image runs on ARMv6, ARMv7, ARM64, and Amd64, so any raspberry pi anywhere can talk to each other. Capable of streaming videos over NFS or SMB in 4G without stutters.
 
 Available apps for Raspberry, Linux, Android, iOS, Windows and Mac.
 
@@ -78,9 +78,15 @@ This should make apps leaner and easier to embbedd SSB into other apps.
 
 ### [Dat](https://dat.foundation/)
 
+- Given that you have control of the website DNS, just publish a new dat repo if you loose access to the device. It's ok to have ephemeral hashes.
+  - `dat doctor` creates an ephemeral link just to test the connection
+
 - Using [dat-installer](https://github.com/staltz/dat-installer) to distribute my own Android APKs without releasing it on the store
 - Contributing to [datrs](https://github.com/datrs/) to build a Rust version and allow easier embedding of Dat protocol into other apps
 - [hyperdrive-fuse](https://github.com/andrewosh/hyperdrive-daemon)
+
+- [hyperswarm](https://github.com/hyperswarm) - distributed network stack on node
+  - [airpipe](https://github.com/noffle/airpipe) - share stdin/stdout over network using hyperswarm to find peers
 
 #### To keep an eye related to Dat
 
@@ -89,7 +95,8 @@ This should make apps leaner and easier to embbedd SSB into other apps.
 
 ## Not installed, but I check from time to time to see if I can use more
 
-- [Briar](https://briarproject.org/) - p2p messenger app for mobile, no desktop option
+- [Briar](https://briarproject.org/) - p2p messenger app for mobile, no desktop option, bluetooth and local wifi, requires face-to-face verification. No multi-hop.
+- [FireChat](https://play.google.com/store/apps/details?id=com.opengarden.firechat) - p2p messenger app for mobile, no desktop option, offers multi-hop. Closed-source, commercial.
 - [Matrix](https://matrix.org/) - federated messenger, [with recent](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) attempts to use overlay ([libp2p](https://libp2p.io/), y) networks to find peers. Awesome idea to connect to other networks and centralize the use (Matrix <-> Telegram, Matrix <-> Whatsapp), but requires maintaining a `homeserver` (main impl requires lot's of memory and a postgres db - no way). No good mobile chat app option yet.
 - [ZeroNet](https://zeronet.io/) - Weird hostnames, feels like darknet with a sprinkle of cryptocoin. Website is very pretty tho. Desktop-y.
 - [IPFS](https://ipfs.io/) - Their website and documentation improved a lot this last year! Spanwed [libp2p](https://libp2p.io/), [multiformats](https://multiformats.io/) and [ipld](https://ipld.io/) projects (also worth keeping an eye on). Used to have weird localhost links, but the new [IPFS Desktop](https://github.com/ipfs-shipyard/ipfs-desktop) looks much better. Immutable files are weird on my mind, specially for mutable content (eg blog posts) or self referential links (both requires ipns). Cryptocoin-y now (ethereum, filecoin, namecoin, blockstack), Desktop-y
@@ -99,6 +106,17 @@ This should make apps leaner and easier to embbedd SSB into other apps.
 - [PeerTube](https://joinpeertube.org/) - Video sharing platform, uses [WebTorrent](https://webtorrent.io/) to share content between peers watching videos
 - [Offst](https://www.freedomlayer.org/offst/) - Distributed ledger to track debit between friends, no blockchain-y or cryptocoin-y. [Recently announced a Flutter app](https://www.freedomlayer.org/offst/mobile-app-plan/) project. Really early phases.
   - Also worth checking: [Interledger](https://interledger.org/) - open protocol to send money between ledgers (open-banking like open-protocol).
+- [OpenWirelessLink](https://owlink.org/) - Reverse engineering of Apple Wireless Direct Link (AirDrop)
+- [Movim](https://movim.eu/) - XMPP all-in-once social apps, chat, twitter. Requires XMPP server, federated.
+  - [Dino](https://dino.im/) as a new desktop app with interop to movim
+  - [Conversations](https://conversations.im/) as a mobile app for chat
+
+### Android only mentions
+
+- [TrebleShot](https://f-droid.org/packages/com.genonbeta.TrebleShot/) - send files between devices
+- [meshenger](https://f-droid.org/packages/d.d.meshenger/) - p2p chat
+- [f-droid](https://f-droid.org/en/) - allows sharing installed apk with other local f-droid users
+- [Wi-Fi Direct](https://developer.android.com/training/connect-devices-wirelessly/wifi-direct) and [Google Nearby](https://developers.google.com/nearby/) APIs
 
 ## Community run networks
 
@@ -116,3 +134,8 @@ These community local networks allow people to create new networks easily, such 
 As an example [Altermundi support for Germany Klimmacamp](https://altermundi.net/article/mesh-networks-for-activists/) and [Meshnet for DWeb Camp 2019](https://dweb-camp-2019.github.io/meshnet/). Goes well with [DWeb apps]
 
 I would love to have one in SP, but it requires hardward and effort to start and mantain on a log term.
+
+## Mentions
+
+- [GoTenna](https://gotennamesh.com/products/mesh) - Radio capable network devices
+- [p2pforever](http://p2pforever.org/) - another set of (many more) links
