@@ -101,6 +101,8 @@ New app to come: [Planetary](https://planetary.social/)
 ## Not installed, but I check from time to time to see if I can use more
 
 - [Gun.js](https://gun.js.org/) - Distributed p2p database. Allows build browser apps that talk to other peers directly and share data.
+- [kappa-db](https://github.com/kappa-db) - Distributed p2p modules for building storage
+- [Peermaps](https://peermaps.org/) - distributed, offline-friendly alternative to commercial map
 - [Briar](https://briarproject.org/) - p2p messenger app for mobile, no desktop option, bluetooth and local wifi, requires face-to-face verification. No multi-hop.
 - [Entropic](https://github.com/entropic-dev/entropic) - package manager, wish to be federated/distributed. No concrete plans on protocol yet.
 - [FireChat](https://play.google.com/store/apps/details?id=com.opengarden.firechat) - p2p messenger app for mobile, no desktop option, offers multi-hop. Closed-source, commercial.
@@ -151,3 +153,4 @@ I would love to have one in SP, but it requires hardward and effort to start and
 - [DWebcamp](https://dwebcamp.org/) conference
 - [Indieweb](https://indieweb.org/) movement
 - [Data Terra Nemo](https://dtn.is/) conference
+- <https://arewedistributedyet.com/>
