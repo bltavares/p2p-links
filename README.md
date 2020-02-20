@@ -27,6 +27,7 @@ It simulates a LAN network, so MDNS and broadcast works. It can run on MIPS Open
 It provides also a [6PLANE](https://zerotier.atlassian.net/wiki/spaces/SD/pages/7274520/Using+NDP+Emulated+6PLANE+Addressing+With+Docker) address, so each docker container running on a computer will have it's own IPv6 address accessible on the virtual network. It allows cross-node cross-container communication, over the internet or locally.
 
 I keep a [multi-architecture Docker](https://hub.docker.com/r/bltavares/zerotier) up-to-date to have it runnig on all my [homelab](https://github.com/bltavares/homelab) devices. This allows me to add a new device on my virtual network only having to install Docker. The Docker image runs on ARMv6, ARMv7, ARM64, and Amd64, so any raspberry pi anywhere can talk to each other. Capable of streaming videos over NFS or SMB in 4G without stutters.
+Use with [mosh](https://mosh.org) for uninterupted shell during network roaming.
 
 Available apps for Raspberry, Linux, Android, iOS, Windows and Mac.
 
