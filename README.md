@@ -155,3 +155,4 @@ I would love to have one in SP, but it requires hardward and effort to start and
 - [Indieweb](https://indieweb.org/) movement
 - [Data Terra Nemo](https://dtn.is/) conference
 - <https://arewedistributedyet.com/>
+- [Women in Identity](https://twitter.com/WomeninID) - Group discussing Identity solution in a distributed space
