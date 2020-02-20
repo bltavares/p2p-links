@@ -8,6 +8,12 @@ Suggestions are appreciated, but not garanteed to be included in the list. Worst
 
 ## Using all the time
 
+### [Syncthing](https://syncthing.net/)
+
+File syncronization **[open source|Go]**
+
+Available on Android, but hell will break loose with the new Android Scoped Storage on Android 10+
+
 ### [Zerotier](https://zerotier.com/)
 
 Overlay network **[comercial|free managed tier available|Open Source]**
@@ -34,6 +40,10 @@ Available apps for Raspberry, Linux, Android, iOS, Windows and Mac.
 
 - [Tinc](https://tinc-vpn.org/) is an older alternative I've used 5-6 years ago. It also requires both peer to be configured to talk to each other. Also available for ARM, MIPS and AMD devices. Some iOS options available over Cydia, and non-official Android apps. I had lot's of issues in the past to keep a stable connection, but it could have changed.
 
+### [Consul](https://www.consul.io/)
+
+Gossip-based service discovery **[open-source|Go]**
+
 ## Installed, check from time to time
 
 ### [Scuttlebutt](https://scuttlebutt.nz/) (SBB)
@@ -53,6 +63,42 @@ I have installed [Manyverse](https://www.manyver.se/) on Android. I've been usin
 All apps ship copies of Node.js (Electron and Node-Mobile), as the protocol relies on how Node.js.
 This is being worked on by many people to allow porting the protocol to other languages, such as [Sunrisechoir](https://github.com/sunrise-choir) for Rust (specially this one) and [the Go version](https://github.com/cryptoscope/ssb)
 This should make apps leaner and easier to embbedd SSB into other apps.
+
+### [Beaker Browser](https://beakerbrowser.com/)
+
+- [Hashbase](https://hashbase.io/)
+
+#### To keep an eye related to Beaker
+
+- A new Beaker release is comming, and there are a lot of exciting new featuers [on Twitter](https://twitter.com/BeakerBrowser).
+
+- [hyperdrive-fuse](https://github.com/andrewosh/hyperdrive-daemon)
+
+- [Unwalled.garden](https://unwalled.garden/) is a file-schema that will integrate with the new Beaker and allow to build apps on top of [structured-data](https://twitter.com/pfrazee/status/1217049494363295744), such as querying friends-of-friends post
+
+### [Dat](https://dat.foundation/)
+
+- Using [dat-installer](https://github.com/staltz/dat-installer) to distribute my own Android APKs without releasing it on the store
+- Contributing to [datrs](https://github.com/datrs/) to build a Rust version and allow easier embedding of Dat protocol into other apps
+- [hyperdrive-fuse](https://github.com/andrewosh/hyperdrive-daemon)
+
+#### To keep an eye related to Dat
+
+- [Arso](https://arso.xyz/)
+- [Mapeo](https://www.digital-democracy.org/mapeo/)
+
+## Not installed, but I check from time to time to see if I can use more
+
+- [Briar](https://briarproject.org/) - p2p messenger app for mobile, no desktop option
+- [Matrix](https://matrix.org/) - federated messenger, [with recent](https://fosdem.org/2020/schedule/event/dip_p2p_matrix/) attempts to use overlay ([libp2p](https://libp2p.io/), y) networks to find peers. Awesome idea to connect to other networks and centralize the use (Matrix <-> Telegram, Matrix <-> Whatsapp), but requires maintaining a `homeserver` (main impl requires lot's of memory and a postgres db - no way). No good mobile chat app option yet.
+- [ZeroNet](https://zeronet.io/) - Weird hostnames, feels like darknet with a sprinkle of cryptocoin. Website is very pretty tho. Desktop-y.
+- [IPFS](https://ipfs.io/) - Their website and documentation improved a lot this last year! Spanwed [libp2p](https://libp2p.io/), [multiformats](https://multiformats.io/) and [ipld](https://ipld.io/) projects (also worth keeping an eye on). Used to have weird localhost links, but the new [IPFS Desktop](https://github.com/ipfs-shipyard/ipfs-desktop) looks much better. Immutable files are weird on my mind, specially for mutable content (eg blog posts) or self referential links (both requires ipns). Cryptocoin-y now (ethereum, filecoin, namecoin, blockstack), Desktop-y
+- [Cabal](https://cabal.chat/) - p2p group chat on top of Dat. Early phases, can't find peers on the main channel sometimes. UI Electron-based with npm-cli alternative, Desktop-y yet.
+- [Peerlinks](https://peerlinks.io/) - p2p group chat replacement for IRC. Early phases, couldn't run when I've tried.
+- Many options of distributed git - [git-dat](https://github.com/substack/git-dat), [hypergit](https://github.com/noffle/hypergit), [git-ssb](https://git.scuttlebot.io/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256)
+- [PeerTube](https://joinpeertube.org/) - Video sharing platform, uses [WebTorrent](https://webtorrent.io/) to share content between peers watching videos
+- [Offst](https://www.freedomlayer.org/offst/) - Distributed ledger to track debit between friends, no blockchain-y or cryptocoin-y. [Recently announced a Flutter app](https://www.freedomlayer.org/offst/mobile-app-plan/) project. Really early phases.
+  - Also worth checking: [Interledger](https://interledger.org/) - open protocol to send money between ledgers (open-banking like open-protocol).
 
 ## Community run networks
 
