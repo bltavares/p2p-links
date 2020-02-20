@@ -8,7 +8,9 @@ Suggestions are appreciated, but not garanteed to be included in the list. Worst
 
 ## Using all the time
 
-- [Zerotier](https://zerotier.com/) - Overlay network **[comercial|free managed tier available|Open Source]**
+### [Zerotier](https://zerotier.com/)
+
+Overlay network **[comercial|free managed tier available|Open Source]**
 
 This is one of the greatest tools that I use daily. This creates a virtual network on top of any other network the device is connected. Each device can then talk directly to each other over IPv6 or NAT-punch-holed connection.
 
@@ -22,15 +24,35 @@ I keep a [multi-architecture Docker](https://hub.docker.com/r/bltavares/zerotier
 
 Available apps for Raspberry, Linux, Android, iOS, Windows and Mac.
 
-**To keep an eye**:
+#### To keep an eye related to Zerotier
 
 - [Zerotier 2.0](https://zerotier.com/zerotier-2-0-status/) and the promise of an easier way to run a virtual network without internet.
 
-- [Tailscale](https://tailscale.com/) new company built on top of Wireguard promising a similar experience to ZeroTier. Given that Wireguard requires key-exchanges and some setup both on each peer, the experience seems to require some extra tooling/central server. Let's see.
+- [Tailscale](https://tailscale.com/) new company built on top of Wireguard promising a similar experience to ZeroTier. Given that Wireguard requires key-exchanges and some setup both on each peer, the experience seems to require some extra tooling/central server. Let's see. There are also many [1](https://github.com/gawen/wirehub) [2](https://github.com/squat/kilo) [3](https://github.com/manuels/wireguard-p2p) early-phase projects to make wireguard managament create p2p networks.
 
 - [Yggdrasil](https://yggdrasil-network.github.io/) open-source project also interested in providing a p2p overlay network. Similar to [cjdns](https://github.com/cjdelisle/cjdns) (main network is [hyperboria](https://hyperboria.net/)), with a different route propagation strattegy. Both require a peer with a static public ip to get on board of the network. Zerotier is one less service to maintain with their central server, and the option to run your own if needed. Yggdrasil nor cjdns are available on mobile.
 
 - [Tinc](https://tinc-vpn.org/) is an older alternative I've used 5-6 years ago. It also requires both peer to be configured to talk to each other. Also available for ARM, MIPS and AMD devices. Some iOS options available over Cydia, and non-official Android apps. I had lot's of issues in the past to keep a stable connection, but it could have changed.
+
+## Installed, check from time to time
+
+### [Scuttlebutt](https://scuttlebutt.nz/) (SBB)
+
+decentralised social network **[Open source|Protocol|Applications]**
+
+[Get started](https://scuttlebutt.nz/get-started/) by selecting one of the apps that usins SSB protocol and start social networking. The protocol let's you store content locally, and download content from other devices on the network when they are connected. Your friends will carry your data, and they can share your data to other friends when they are connected. This is a gossip-based protocol.
+
+SSB is a social network, and a protocol. The protocol lets you build many social apps, such as a distributed p2p github [git-ssb](https://git.scuttlebot.io/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256). [There are many apps](https://handbook.scuttlebutt.nz/applications), such as [ssb-npm](https://handbook.scuttlebutt.nz/applications#ssb-npm), a [blog platform](https://github.com/ticktackim/ticktack-workplan), [chess](https://github.com/Happy0/ssb-chess) and so on.
+
+I have installed [Patchwork](https://github.com/ssbc/patchwork) on my Desktop, and it is connected to many pubs. From time to time (2-3 times per month) I open the app, download messages from people I've followed and read how things are being developed. I mostly follow developers of the protocol and the apps there, to keep an eye on the evolution of the project. I barely post tho.
+
+I have installed [Manyverse](https://www.manyver.se/) on Android. I've been using it since the early beta, and I've deleted my secret key many many many times. I would like to use it more. Let me know and I can send you an invite to get you on board on Manyverse.
+
+#### To keep an eye related to SSB
+
+All apps ship copies of Node.js (Electron and Node-Mobile), as the protocol relies on how Node.js.
+This is being worked on by many people to allow porting the protocol to other languages, such as [Sunrisechoir](https://github.com/sunrise-choir) for Rust (specially this one) and [the Go version](https://github.com/cryptoscope/ssb)
+This should make apps leaner and easier to embbedd SSB into other apps.
 
 ## Community run networks
 
