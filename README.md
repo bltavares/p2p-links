@@ -62,10 +62,10 @@ I have installed [Manyverse](https://www.manyver.se/) on Android. I've been usin
 #### To keep an eye related to SSB
 
 All apps ship copies of Node.js (Electron and Node-Mobile), as the protocol relies on how Node.js.
-This is being worked on by many people to allow porting the protocol to other languages, such as [Sunrisechoir](https://github.com/sunrise-choir) for Rust (specially this one) and [the Go version](https://github.com/cryptoscope/ssb)
+This is being worked on by many people to allow porting the protocol to other languages, such as [Sunrisechoir](https://github.com/sunrise-choir) and [Kuska](https://github.com/Kuska-ssb) for Rust and [the Go version](https://github.com/cryptoscope/ssb)
 This should make apps leaner and easier to embbedd SSB into other apps.
 
-New app to come: [Planetary](https://planetary.social/)
+New app to come: [Planetary](https://planetary.social/) (iOS only so far)
 
 ### [Beaker Browser](https://beakerbrowser.com/)
 
