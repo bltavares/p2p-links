@@ -6,6 +6,17 @@ The goal is not to list every single project, but to keep track of the level of 
 
 Suggestions are appreciated, but not garanteed to be included in the list. Worst case scenario, it will be documented as part of the discussion on the PR and searchable :)
 
+## Before looking at the tech
+
+Really important reads about the social/moderation aspect of distributed content and their challenges
+
+- [TrustNet](https://cblgh.org/articles/trustnet.html)
+- [Distributed Web of Hate](https://rebelliousdata.com/p2p/) research results
+- [This is Fine](https://newdesigncongress.org/en/pub/this-is-fine) article
+- [Descentralization and it's discontents](https://www.youtube.com/watch?v=zx-O4W9TbHg) presentation
+- [Computação soberana](https://blog.impulso.network/computacao-soberana/) - article
+
+
 ## Using all the time
 
 ### [Syncthing](https://syncthing.net/)
@@ -113,7 +124,7 @@ New app to come: [Planetary](https://planetary.social/) (iOS only so far)
 - [Cabal](https://cabal.chat/) - p2p group chat on top of Dat. Early phases, can't find peers on the main channel sometimes. UI Electron-based with npm-cli alternative, Desktop-y yet.
 - [Peerlinks](https://peerlinks.io/) - p2p group chat replacement for IRC. Early phases, couldn't run when I've tried.
 - Many options of distributed git - [git-dat](https://github.com/substack/git-dat), [hypergit](https://github.com/noffle/hypergit), [git-ssb](https://git.scuttlebot.io/%25n92DiQh7ietE%2BR%2BX%2FI403LQoyf2DtR3WQfCkDKlheQU%3D.sha256)
-- [Radicle](https://radicle.xyz/) - Another take on sofware development storage - git-like p2p
+- [Radicle](https://radicle.xyz/) - Another take on sofware development storage - git-like p2p - launched but very alpha. Sadly has cryptocoin components on naming and discovery is currently federated
 - [PeerTube](https://joinpeertube.org/) - Video sharing platform, uses [WebTorrent](https://webtorrent.io/) to share content between peers watching videos
 - [Offst](https://www.freedomlayer.org/offst/) - Distributed ledger to track debit between friends, no blockchain-y or cryptocoin-y. [Recently announced a Flutter app](https://www.freedomlayer.org/offst/mobile-app-plan/) project. Really early phases.
   - Also worth checking: [Interledger](https://interledger.org/) - open protocol to send money between ledgers (open-banking like open-protocol).
@@ -121,6 +132,7 @@ New app to come: [Planetary](https://planetary.social/) (iOS only so far)
 - [Movim](https://movim.eu/) - XMPP all-in-once social apps, chat, twitter. Requires XMPP server, federated.
   - [Dino](https://dino.im/) as a new desktop app with interop to movim
   - [Conversations](https://conversations.im/) as a mobile app for chat
+- [Sneer](http://sneer.me/) - Free and open source sovereign computing platform on JVM.
 
 ### Android only mentions
 
@@ -144,7 +156,7 @@ This networks setup can use [Libremesh](https://libremesh.org/), [qmp](https://q
 These community local networks allow people to create new networks easily, such as in natural disaters, and allow people to keep connected using internal services or dweb apps.
 As an example [Altermundi support for Germany Klimmacamp](https://altermundi.net/article/mesh-networks-for-activists/) and [Meshnet for DWeb Camp 2019](https://dweb-camp-2019.github.io/meshnet/). Goes well with [DWeb apps]
 
-I would love to have one in SP, but it requires hardward and effort to start and mantain on a log term.
+I would love to have one in SP, but it requires hardward and effort to start and mantain on a log term. Also, search for #moinho-mesh on SSB for a cool community with projects that includes SSB, LoRaWAN, WiFi and Bluetooth in Brazil.
 
 ## Mentions
 
@@ -156,3 +168,5 @@ I would love to have one in SP, but it requires hardward and effort to start and
 - [Data Terra Nemo](https://dtn.is/) conference
 - <https://arewedistributedyet.com/>
 - [Women in Identity](https://twitter.com/WomeninID) - Group discussing Identity solution in a distributed space
+- [Redecentralize Newsletter](https://redecentralize.org)
+- [Scuttlecamp](https://two.camp.scuttlebutt.nz/) - event, Brazil
