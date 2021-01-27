@@ -12,6 +12,7 @@ Really important reads about the social/moderation aspect of distributed content
 
 - [TrustNet](https://cblgh.org/articles/trustnet.html)
 - [Distributed Web of Hate](https://rebelliousdata.com/p2p/) research results
+- [Ecosystem Review - Jan/2021](https://matrix.org/_matrix/media/r0/download/twitter.modular.im/981b258141aa0b197804127cd2f7d298757bad20) research results
 - [This is Fine](https://newdesigncongress.org/en/pub/this-is-fine) article
 - [Descentralization and it's discontents](https://www.youtube.com/watch?v=zx-O4W9TbHg) presentation
 - [Computação soberana](https://blog.impulso.network/computacao-soberana/) - article
